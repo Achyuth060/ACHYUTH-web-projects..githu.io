@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Royal Route</title>
+    <style>
+        /* Ensure full height for layout */
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://i.pinimg.com/736x/ff/7d/10/ff7d1077d942b78a595d3cc0a0ebe64f.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: rgba(0, 123, 255, 0.8);
+            color: white;
+            height: 80px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu li a {
+            background-color: #007BFF;
+            padding: 8px 15px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .menu li a:hover {
+            background-color: #0056b3;
+            text-decoration: underline;
+        }
+
+        /* Wrapper to push the footer to the bottom */
+        .content {
+            flex: 1; /* Pushes footer to bottom */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .info {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 60%;
+            color: black;
+            text-align: left;
+        }
+
+        .info h2 {
+            color: #007BFF;
+        }
+
+        .info p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Footer stays at the bottom */
+        footer {
+            background: rgba(0, 123, 255, 0.8);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        /* Media Queries for Responsiveness */
+        /* For small screens like mobile */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                height: auto;
+                text-align: center;
+                padding: 10px;
+            }
+
+            .logo-container img {
+                height: 30px; /* Smaller logo for mobile */
+            }
+
+            .menu {
+                flex-direction: column;
+                margin-top: 20px;
+            }
+
+            .menu li {
+                margin: 10px 0;
+            }
+
+            .content {
+                padding: 10px;
+            }
+
+            .info {
+                width: 90%;
+            }
+
+            footer {
+                font-size: 12px;
+            }
+        }
+
+        /* For tablet screens */
+        @media (max-width: 1024px) {
+            header {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .menu {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .menu li {
+                margin: 0 10px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .info {
+                width: 80%;
+            }
+
+            footer {
+                font-size: 14px;
+            }
+        }
+
+        /* For extra-large screens, such as desktop */
+        @media (min-width: 1200px) {
+            .info {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="#"><img src="https://th.bing.com/th/id/OIP.oFV6TtHWq0hLAVozjrSHKgHaHa?rs=1&pid=ImgDetMain" alt="Royal Route Logo"></a>
+            <h1 style="font-size: 24px; margin: 0;">Royal Route</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="UID SERVICES.html">Services</a></li>
+                <li><a href="UID ABOUT US.html">About</a></li>
+                <li><a href="UID CONTACT US.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="info">
+            <h2>About Royal Route</h2>
+            <p>Welcome to Royal Route, your one-stop solution for booking bus, train, and flight tickets with ease. Our mission is to provide a seamless travel booking experience by offering a user-friendly platform with multiple travel options at your fingertips.</p>
+            <p>At Royal Route, we value customer satisfaction and aim to deliver the best service possible. Whether you're planning a short trip or a long journey, we've got you covered with the best deals and travel options.</p>
+        </div>
+    </div>
+
+   <footer>
+        <div>
+            <p>Royal Route Travels. Book your Happy Journey</p>
+           
+        </div>
+    </footer>
+
+</body>
+</html>

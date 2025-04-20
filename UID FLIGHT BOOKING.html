@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking - Royal Route</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #00008B, #FF69B4);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #d32f2f;
+            color: white;
+            height: 80px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .menu li {
+            margin: 0 15px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        .booking-container {
+            margin-top: 50px;
+            background: white;
+            padding: 30px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .booking-container h2 {
+            color: #d32f2f;
+        }
+        .booking-container input, select {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .booking-container button {
+            background: #d32f2f;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .booking-container button:hover {
+            background: #b71c1c;
+        }
+        footer {
+            background: #d32f2f;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="#"><img src="https://th.bing.com/th/id/OIP.oFV6TtHWq0hLAVozjrSHKgHaHa?rs=1&pid=ImgDetMain" alt="Royal Route Logo"></a>
+            <h1 style="font-size: 24px; margin: 0;">Royal Route</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <pre>
+                <button><a href="index.html">Home</a></button>  <button><a href="UID SERVICES.html">Services</a></button>  <button><a href="file:///C:/Users/Achyu/OneDrive/Desktop/EXPERIMENT-3/UID%20ABOUT%20US.html">About</a></button>  <button><a href="UID CONTACT US.html">Contact</a></button>
+</pre>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="booking-container">
+        <h2>Book Your Flight Ticket</h2>
+        <form>
+            <input type="text" placeholder="From" required>
+            <input type="text" placeholder="To" required>
+            <input type="date" required>
+            <select required>
+                <option value="" disabled selected>Select Class</option>
+                <option value="Economy">Economy</option>
+                <option value="Business">Business</option>
+                <option value="First Class">First Class</option>
+            </select>
+            <button type="submit"><a href="UID AVAILABLE FLIGHTS.HTML">Search Flights</a></button>
+        </form>
+    </div>
+    
+   <footer>
+        <div>
+            <p>Royal Route Travels. Book your Happy Journey</p>
+           
+        </div>
+    </footer>
+
+</body>
+</html>
